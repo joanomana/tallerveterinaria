@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Taller veterinaria 2 - JavaScript
 
-## Getting Started
+Implementar una aplicación en **JavaScript** que permita gestionar una veterinaria.
 
-First, run the development server:
+### **Requisitos:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Las mascotas deben tener almenos las siguientes propiedades:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   - Nombre
+   - Especie (Perro, Gato, etc.)
+   - Edad
+   - Peso
+   - Estado de salud (Sano, Enfermo, En tratamiento)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. Implementar un menú interactivo con `prompt` y `alert`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    que permita al usuario:
 
-## Learn More
+   1. Registrar una nueva mascota.
+   2. Listar todas las mascotas registradas.
+   3. Buscar una mascota por nombre.
+   4. Actualizar el estado de salud de una mascota.
+   5. Eliminar una mascota por nombre.
+   6. Salir del programa.
 
-To learn more about Next.js, take a look at the following resources:
+### **Nuevas funcionalidades con asincronía (con callbacks):**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔹 **Registro de mascota con retraso** (simulando una validación con `setTimeout`).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔹 **Búsqueda de mascota con retardo** (simulando el tiempo de consulta en una base de datos).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔹 **Actualización de estado de salud con espera** (simulando que el veterinario tarda en actualizar los registros).
